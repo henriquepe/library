@@ -1,0 +1,19 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev:server": "nodemon ./src/server.js"
+  },
+  "repository": "https://github.com/henriquepe/library.git",
+  "author": "henriquepe <henrique.p.espindola@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "mongoose": "^5.11.14"
+  }
+}
